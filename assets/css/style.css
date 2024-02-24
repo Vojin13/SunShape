@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav.navbar .container {
+  height: 100px;
+}
+
+nav {
+  height: 100px;
+  font-size: 20px;
+  background-color: #232323;
+}
+
+nav a img {
+  width: 100px;
+  height: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+ul.navbar-nav li.nav-item.active a.nav-link {
+  opacity: 1;
+  color: #ffc107;
+}
+
+.carousel-item {
+  object-fit: cover;
+  height: 90vh;
+}
+
+.navbar-collapse.show {
+  background-color: #212529;
+}
+
+.navbar-collapse.collapsing {
+  background-color: #212529;
+}
+
+.navbar-nav.ms-auto .nav-item {
+  margin: 0px auto;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 500px;
+}
+
+.carousel-item img {
+  height: 100vh;
+  min-height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 30%;
+}
+
+.carousel-caption h5 {
+  font-size: 50px;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  width: 60%;
+  margin: 5px auto;
+}
+
+.container > h1 {
+  font-weight: 650;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.exotic-trip-col img {
+  object-fit: cover;
+  height: 300px;
+}
+
+.exotic-trip-col h5 {
+  font-weight: 600;
+}
+
+.exotic-trips h1 span {
+  font-weight: 650;
+}
+
+.cursivetext {
+  font-family: "Courgette", cursive;
+}
+
+.Newsletter {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/exotic1.jpg");
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.whyus .icon-box i {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #e4ecfd;
+  color: #71adff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  background-color: #e4ecfd;
+}
+
+.submit-dugme {
+  width: 40%;
+  margin: 0px auto;
+}
+
+.logo-footer {
+  width: 100px;
+}
+
+.footer-title {
+  font-size: 24px;
+}
+
+.footer-title a {
+  color: white;
+}
+
+.footer-section .container .row a {
+  color: white;
+}
+
+.social-icons i {
+  font-size: 32px;
+}

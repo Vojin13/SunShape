@@ -1,0 +1,16 @@
+@media screen and (max-width: 1654px) {
+  .carousel-caption h5 {
+    font-size: 30px;
+  }
+
+  .carousel-caption p {
+    font-size: 15px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .FormImg {
+    margin-bottom: 30px;
+  }
+}
