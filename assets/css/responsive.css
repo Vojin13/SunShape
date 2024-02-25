@@ -9,8 +9,97 @@
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .cards-section .card p {
+    font-size: 15px;
+  }
+
+  .cards-section .card {
+    height: 330px;
+    padding: 10px;
+  }
+  .card-testimonial {
+    height: 330px;
+    margin-top: 35%;
+  }
+  p.text-center.maintext {
+    margin-top: 33%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .card-wrapper .cards-section:nth-child(1) {
+    margin-bottom: 3rem;
+  }
+  .card-wrapper .cards-section:nth-child(2) {
+    margin-bottom: 3rem;
+  }
+
+  .cards-section .card p {
+    font-size: 16px;
+  }
+
+  .cards-section .card {
+    height: 290px;
+    padding: 10px;
+  }
+
+  .card-testimonial {
+    height: 270px;
+    width: 70%;
+    margin: 10% auto;
+  }
+  p.text-center.maintext {
+    margin-top: 25%;
+  }
+
+  .travelwithus h1,
+  .travelwithus h5 {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .FormImg {
     margin-bottom: 30px;
+  }
+  .card-wrapper .cards-section:nth-child(3) {
+    margin-bottom: 3rem;
+  }
+
+  .Services .container .row:last-child {
+    display: none;
+  }
+
+  .cards-section .card {
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  .card-testimonial {
+    height: 280px;
+    width: 90%;
+    margin: 17% auto;
+  }
+
+  p.text-center.maintext {
+    margin-top: 27%;
+  }
+
+  .author-heading-1 {
+    text-align: center;
+  }
+
+  .travelwithus h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  p.text-center.maintext {
+    margin-top: 40%;
+  }
+  .card-testimonial .row {
+    display: none;
   }
 }

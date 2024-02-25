@@ -44,10 +44,12 @@ ul.navbar-nav li.nav-item.active a.nav-link {
 
 .navbar-collapse.show {
   background-color: #212529;
+  z-index: 5;
 }
 
 .navbar-collapse.collapsing {
   background-color: #212529;
+  z-index: 5;
 }
 
 .navbar-nav.ms-auto .nav-item {
@@ -165,6 +167,10 @@ ul.navbar-nav li.nav-item.active a.nav-link {
   background-attachment: fixed;
 }
 
+.author-heading h1 {
+  font-weight: 600;
+}
+
 .Author-wrapper img {
   width: 90%;
 }
@@ -176,4 +182,60 @@ ul.navbar-nav li.nav-item.active a.nav-link {
 .author-heading-1 p {
   font-size: 18px;
   font-weight: 500;
+}
+
+/* Services */
+.cards-section .card i {
+  font-size: 4rem;
+  color: #71adff;
+  margin: 15px 0px;
+}
+
+.cards-section .card h5 {
+  font-weight: 650;
+  padding: 10px 0px;
+}
+
+.cards-section .card p {
+  font-size: 16px;
+}
+
+.cards-section .card {
+  height: 310px;
+  padding: 10px;
+}
+
+.testimonial img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid #71adff;
+  position: absolute;
+  top: -35%;
+  left: 0;
+  right: 0;
+}
+
+.card-testimonial {
+  border: 1px solid #71adff;
+  border-radius: 20% 10%;
+  height: 300px;
+  position: relative;
+  margin-top: 20%;
+}
+
+p.text-center.maintext {
+  margin-top: 25%;
+}
+
+.travelwithus {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/servicesCover.jpg");
+  background-size: cover;
+  height: 80vh;
+  background-attachment: fixed;
+}
+
+.travelwithus h1 {
+  font-size: 4rem;
 }
