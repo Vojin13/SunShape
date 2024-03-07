@@ -71,6 +71,19 @@
     display: none;
   }
 
+  nav {
+    height: 90px;
+  }
+
+  .navbar {
+    padding: 0px;
+  }
+
+  .navbar-dark .navbar-brand {
+    height: 90px;
+    margin-top: -10px !important;
+  }
+
   .Our-Team .our-team-text p:last-child {
     display: block;
   }

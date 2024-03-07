@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://vojin13.github.io/SunShape/index.html</loc>
+        <lastmod>2024-03-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+        <!-- SEO optimizacija -->
+    </url>
+    <url>
+        <loc>https://vojin13.github.io/SunShape/services.html</loc>
+        <lastmod>2024-03-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://vojin13.github.io/SunShape/about.html</loc>
+        <lastmod>2024-03-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.55</priority>
+    </url>
+    <url>
+        <loc>https://vojin13.github.io/SunShape/author.html</loc>
+        <lastmod>2024-03-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.65</priority>
+    </url>
+</urlset>
