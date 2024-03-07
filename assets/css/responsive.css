@@ -28,6 +28,9 @@
 }
 
 @media screen and (max-width: 991px) {
+  .exotic-trips .container {
+    width: 60%;
+  }
   .card-wrapper .cards-section:nth-child(1) {
     margin-bottom: 3rem;
   }
@@ -57,11 +60,23 @@
   .travelwithus h5 {
     text-align: center;
   }
+
+  .Our-Team .our-team-text p:last-child {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .FormImg {
-    margin-bottom: 30px;
+    display: none;
+  }
+
+  .Our-Team .our-team-text p:last-child {
+    display: block;
+  }
+
+  .exotic-trips .container {
+    width: 90%;
   }
   .card-wrapper .cards-section:nth-child(3) {
     margin-bottom: 3rem;
@@ -92,6 +107,13 @@
 
   .travelwithus h1 {
     font-size: 3rem;
+  }
+  .fact-box {
+    margin: 1rem 0px;
+  }
+
+  .sunshape-facts .row:last-child {
+    display: none;
   }
 }
 
